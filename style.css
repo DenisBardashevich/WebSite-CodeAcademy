@@ -2414,7 +2414,7 @@ ul.benefits li {
 .hero-section {
     position: relative;
     height: 900px;
-    background-image: url('images/about/school1.jpg');
+    background-image: url('./images/about/school1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
