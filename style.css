@@ -2420,6 +2420,15 @@ ul.benefits li {
     background-repeat: no-repeat;
     opacity: 0.9;
   }
+
+  .navbar-collapse {
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-collapse.show {
+    display: block;
+}
   
   
   .background-overlay {
@@ -2872,6 +2881,9 @@ ul.benefits li {
     }
     .hero-text {
       max-width: 400px;
+    }
+    .home-section p.hero-text{
+        display: none;
     }
   }
   

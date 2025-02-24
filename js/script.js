@@ -1,6 +1,13 @@
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("navbarToggle").addEventListener("click", function() {
-        var navbarCollapse = document.getElementById("navbarCollapse");
-        navbarCollapse.classList.toggle("show"); // Добавляем или убираем класс 'show'
+document.addEventListener("DOMContentLoaded", function () {
+
+    const navbarToggle = document.getElementById("navbarToggle");
+    const navbarCollapse = document.getElementById("navbarCollapse");
+
+    if (!navbarToggle || !navbarCollapse) {
+        return;
+    }
+
+    navbarToggle.addEventListener("click", function () {
+        navbarCollapse.classList.toggle("show");
     });
 });
