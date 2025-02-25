@@ -650,10 +650,7 @@ h5 {
         transition: none
     }
 }
-.collapse {
-    display: block !important;
-    height: auto !important;
-}
+
 
 .fade:not(.show) {
     opacity: 0
@@ -816,7 +813,11 @@ h5 {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.25rem
+    padding: 1.25rem;
+    
+}
+.coll{
+    display: block;
 }
 
 .card-header {
@@ -2369,6 +2370,13 @@ ul.benefits li {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: relative;
+    gap: 5px;
+}
+@media (max-width:426px) {
+    .review{
+        flex-direction: column;
+    }
+    
 }
 
 .review__avatar {
