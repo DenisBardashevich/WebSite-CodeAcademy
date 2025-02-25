@@ -650,6 +650,10 @@ h5 {
         transition: none
     }
 }
+.collapse {
+    display: block !important;
+    height: auto !important;
+}
 
 .fade:not(.show) {
     opacity: 0
@@ -1136,7 +1140,7 @@ p.section-subtitle.white{
 
 .section-grey{
 	background: #f1faff;
-	padding: 90px 0 70px 0;
+	padding: 40px 0 40px 0;
 }
 
 .width-100{
@@ -2451,7 +2455,7 @@ ul.benefits li {
   .hero-text {
     margin-right: 20px;
     position: absolute;
-    top: 200px;
+    top: 240px;
     left: 50px;
     color: white;
     max-width: 680px;
@@ -2875,7 +2879,7 @@ ul.benefits li {
     }
   }
   
-  @media (max-width: 1030px) {
+  @media (max-width: 1023px) {
     .hero-title {
       font-size: 30px;
     }
@@ -3137,6 +3141,7 @@ ul.benefits li {
 }
 
 .btn-form {
+    margin-top: 15px;
     width: 100%;
     padding: 12px;
     background-color: #dcdcdc;
