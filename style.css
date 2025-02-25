@@ -2368,6 +2368,7 @@ ul.benefits li {
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .review__avatar {
@@ -3206,4 +3207,12 @@ ul.benefits li {
 .faq-item p {
   font-size: 16px;
   line-height: 1.4;
+}
+
+.review__location {
+    font-size: 0.8em; /* Уменьшаем размер текста */
+    color: #666; /* Мягкий цвет для текста */
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
 }
